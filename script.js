@@ -1,3 +1,4 @@
+
 // Анимация появления секций при скролле
 window.addEventListener("scroll", reveal);
 
@@ -43,6 +44,7 @@ const translations = {
     skill2: "JavaScript",
     skill3: "Python",
     skill4: "Godot / Unity",
+    projectsTitle: "Мои проекты",
     contactTitle: "Контакты",
     contactText: "Свяжись со мной:",
     footerText: "© 2025 kamen228"
@@ -58,11 +60,13 @@ const translations = {
     skill2: "JavaScript",
     skill3: "Python",
     skill4: "Godot / Unity",
+    projectsTitle: "My Projects",
     contactTitle: "Contact",
     contactText: "Get in touch:",
     footerText: "© 2025 kamen228"
   }
 };
+
 
 const langSelect = document.getElementById("languageSelect");
 
