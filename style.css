@@ -193,3 +193,67 @@ body.light footer {
   background: #e0e0e0;
   color: #555;
 }
+
+.projects {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.project:hover {
+  background: #333;
+}
+
+.project h3 {
+  margin-bottom: 8px;
+  color: #61dafb;
+}
+
+.project p {
+  margin-bottom: 12px;
+  color: #ccc;
+}
+
+.project a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Светлая тема */
+body.light .project {
+  background: #ddd;
+}
+
+body.light .project:hover {
+  background: #ccc;
+}
+
+body.light .project h3 {
+  color: #007acc;
+}
+
+body.light .project p {
+  color: #444;
+}
+
+body.light .project a {
+  color: #007acc;
+}
